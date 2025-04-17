@@ -1,0 +1,18 @@
+https://matplotlib.org/stable/gallery/subplots_axes_and_figures/subplots_demo.html
+ISBN 978-0-596-80235-6
+ISBN 978-0-13-454693-3
+https://data.bts.gov/Research-and-Statistics/Daily-Mobility-Statistics/w96p-f2qv/about_data
+https://seaborn.pydata.org/tutorial/color_palettes.html
+https://seaborn.pydata.org/examples/spreadsheet_heatmap.html
+https://arxiv.org/abs/1210.0200
+https://cran.r-project.org/web/packages/pscl/vignettes/countreg.pdf
+https://ml.dask.org/modules/generated/dask_ml.model_selection.train_test_split.html
+https://ml.dask.org/modules/generated/dask_ml.linear_model.LinearRegression.html#dask_ml.linear_model.LinearRegression
+https://ml.dask.org/glm.html
+https://matplotlib.org/stable/gallery/lines_bars_and_markers/broken_barh.html
+https://python-graph-gallery.com/barplot/
+https://www.sciencedirect.com/science/article/pii/S0888613X11001022
+https://www.pymc.io/projects/examples/en/latest/case_studies/binning.html
+https://docs.python.org/3/library/time.html
+https://blog.dask.org/2022/08/09/understanding-meta-keyword-argument
+https://docs.dask.org/en/stable/generated/dask.dataframe.DataFrame.map_partitions.html
