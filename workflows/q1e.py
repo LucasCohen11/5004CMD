@@ -15,7 +15,7 @@ def q1e_sequential():
     plt.ylabel("Total Number of Trips")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.show()
+    #plt.show()
 
 def q1e_Dask():
     df = dd.read_csv(r'../data/Trips_Full Data.csv')
@@ -30,7 +30,7 @@ def q1e_Dask():
     plt.ylabel("Total Number of Trips")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.show()
+    #plt.show()
 
 
 

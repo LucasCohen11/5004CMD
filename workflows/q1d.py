@@ -31,8 +31,8 @@ def parse_ranges_to_dict(ranges):
     
     
 def q1d_sequential():
-    df = pd.read_csv(r'../data/National_only.csv')
-    
+    df = pd.read_csv(r'../data/National_only.csv').dropna()
+    df.drop_duplicates(inplace=True)
         
     #columns that represent trip amounts per distance bin
     cols = [x for x in df.columns if 'Number of Trips ' in x]
@@ -80,7 +80,8 @@ def q1d_sequential():
         
 
 def q1d_Dask():
-    df = dd.read_csv(r'../data/National_only.csv')
+    df = dd.read_csv(r'../data/National_only.csv').dropna()
+    df.drop_duplicates().compute()
     cols = [x for x in df.columns if 'Number of Trips ' in x]
     #Minimum and Maximum distance to belong to a specific bin
     ranges = parse_ranges_to_dict([x.split(' ')[-1] for x in cols]).values()
